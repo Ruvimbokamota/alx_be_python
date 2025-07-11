@@ -1,9 +1,9 @@
 #variable declaration
 principal = 1000
-rate = 5
+rate = 0.05
 time = 3
 
-simple  = principal * (rate / 100) * time
+simple  = principal * rate * time
 
 #result
-print("The simple interest is:", simple)
+print(f"The simple interest is:", simple)
